@@ -1,0 +1,7 @@
+.env
+.venv/
+venv/
+__pycache__/
+vector_store/
+.agents/
+.DS_Store

@@ -1,0 +1,25 @@
+# ── Core LangChain stack ──────────────────────────────────────────────────────
+# Using latest LangChain 1.x — packages are now split across separate modules
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# ── Free local embeddings (no API key, runs on-device) ───────────────────────
+langchain-huggingface>=0.1.0
+sentence-transformers>=3.0.0
+
+# ── Free LLM: Google Gemini Flash via AI Studio ───────────────────────────────
+langchain-google-genai>=2.0.0
+
+# ── PDF loading ───────────────────────────────────────────────────────────────
+pypdf>=4.0.0
+
+# ── Vector store ──────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0
+
+# ── Streamlit UI ──────────────────────────────────────────────────────────────
+streamlit>=1.37.0
+
+# ── Environment variable loading ──────────────────────────────────────────────
+python-dotenv>=1.0.0
